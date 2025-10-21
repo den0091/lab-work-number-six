@@ -1,0 +1,22 @@
+[
+    {
+        "timestamp": "2025-10-21 14:58:04",
+        "player_name": "Денис",
+        "player_email": "denusgoik@gmail.com",
+        "player_age": "under-18",
+        "game_rating": "5",
+        "playtime": "over-100",
+        "favorite_aspects": "Немає",
+        "comments": "сама краща гра"
+    },
+    {
+        "timestamp": "2025-10-21 15:04:51",
+        "player_name": "вііваіва",
+        "player_email": "sdsdsdjsbfsdhsdc@gmail.com",
+        "player_age": 36,
+        "game_rating": 5,
+        "playtime": "50-100",
+        "favorite_aspects": "Немає",
+        "comments": "ваіваіваіваваів"
+    }
+]
