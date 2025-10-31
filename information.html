@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Детальна інформація KCD II</title>
+    <title>Детальна інформація - Kingdom Come: Deliverance II</title>
     <meta name="description" content="Детальна інформація про Kingdom Come: Deliverance II - події, бої, інтриги та світ гри">
 
-    <!-- Підключення CSS -->
-    <link rel="stylesheet" href="/information.css">
+    <!-- Підключення шрифтів Google -->
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 
-    <!-- Підключення JavaScript -->
-    <script src="/information.js" defer></script>
+    <style>
+        body, h1, h2, h3, p, a, button, .header__link, .heading-primary, .heading-secondary, .paragraph {
+            font-family: 'Cinzel Decorative', 'MedievalSharp', 'Times New Roman', Georgia, serif !important;
+        }
+    </style>
 </head>
 <body>
 <!-- Фон сторінки -->
@@ -27,9 +31,9 @@
              class="header__logo">
         <nav class="header__nav">
             <a href="index.html" class="header__link">Основна</a>
-            <a href="locations.html" class="header__link">Локації</a>
-            <a href="kuttenberg.html" class="header__link">Куттенберг</a>
-            <a href="information.html" class="header__link">Інформація</a>
+        <a href="locations.html" class="header__link">Локації</a>
+        <a href="kuttenberg.html" class="header__link">Куттенберг</a>
+        <a href="information.html" class="header__link active">Інформація</a>
         </nav>
         <div class="header__spacer"></div>
     </div>
@@ -38,118 +42,234 @@
 <!-- Основний контент -->
 <main class="main-content">
     <div class="windows-container">
-        <h1 class="heading-primary">Детальна інформація про Kingdom Come: Deliverance II</h1>
+        <!-- Головний заголовок -->
+        <section class="window title-window fade-in">
+            <h1 class="heading-primary">Детальна інформація про <span class="latin-text">Kingdom Come: Deliverance II</span></h1>
+        </section>
 
-        <div class="info-sections">
-            <!-- Секція 1 -->
-            <section class="info-section window fade-in">
+        <!-- Перший ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window text-window" id="events">
                 <h2 class="heading-secondary">Масштабні події</h2>
-                <p class="paragraph">
-                    Kingdom Come: Deliverance II занурює гравця у великі баталії та ключові сюжетні сцени,
-                    де історія розгортається через численні конфлікти, війни та політичні інтриги.
-                    Гравець стає учасником масштабних битв, де кожне рішення впливає на результат і подальший розвиток світу.
-                    Масштабні події охоплюють як військові кампанії, так і дипломатичні процеси, що формують історичний контекст гри.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCD_2_Announce_05_Battlestart_6cffa7c9a7.jpg" alt="Масштабні події" class="info-image">
-            </section>
-
-            <!-- Секція 2 -->
-            <section class="info-section window fade-in">
-                <h2 class="heading-secondary">Середньовічний світ та історія</h2>
-                <p class="paragraph">
-                    Гравець поринає у глибоку історичну атмосферу Богемії XV століття.
-                    Архітектура замків та будівель, ремісничі майстерні, ринки та соціальна структура міста відтворені з високою точністю.
-                    Кожна локація та дія NPC створює відчуття живого середньовічного світу, а сюжетні рішення тісно переплітаються з історичними подіями.
-                    Цей розділ дозволяє глибше зрозуміти культуру, побут та політичні реалії того часу.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCD_2_Announce_vista_0f01f2bc29.jpg" alt="Середньовічний світ" class="info-image">
-            </section>
-
-            <!-- Секція 3 -->
-            <section class="info-section window fade-in">
-                <h2 class="heading-secondary">Бої</h2>
-                <p class="paragraph">
-                    Динамічні бої та дуелі формують серце геймплею. Враховується вага зброї, витривалість персонажа, захисне спорядження та точність ударів.
-                    Гравець повинен стратегічно обирати тактику бою та тренувати свої навички, щоб успішно протистояти ворогам.
-                    У грі представлені як масштабні баталії, так і індивідуальні дуелі, що додає різноманіття бойовому досвіду.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCD_2_Announce_Fight_Scene_1bec2eea1e.jpg" alt="Бої" class="info-image">
-            </section>
-
-            <!-- Секція 4 -->
-            <section class="info-section window fade-in">
-                <h2 class="heading-secondary">Кримінальні інтриги та правосуддя</h2>
-                <p class="paragraph">
-                    У грі гравець зіштовхується зі злочинами, корупцією та судовими процесами.
-                    Від рішень гравця залежить, як будуть вирішені конфлікти та покарання.
-                    Цей розділ включає шпигунські інтриги, таємні змови і можливість розплутувати складні кримінальні справи.
-                    Гравець може впливати на закон і порядок у місті, що робить сюжет більш інтерактивним та насиченим.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCD_II_Saints_and_Sinners_Screenshot_6_f146366217.png" alt="Кримінальні інтриги та правосуддя" class="info-image">
-            </section>
-
-            <!-- Секція 5 -->
-            <section class="info-section window fade-in">
-                <h2 class="heading-secondary">Правосуддя та наслідки злочинів</h2>
-                <p class="paragraph">
-                    Кожне рішення гравця щодо злочинів та вбивств має прямий вплив на персонажів і розвиток світу.
-                    Справедливість може бути відновлена або порушена залежно від дій гравця.
-                    Помилки у судових процесах чи неправомірні дії можуть призвести до непередбачуваних наслідків, що підкреслює глибину і складність ігрового світу.
-                    Взаємодія з NPC та суспільними інститутами формує унікальний досвід, де моральні вибори є ключовими.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCD_II_Saints_and_Sinners_Screenshot_2_ec9763fdfc.png" alt="Правосуддя та наслідки злочинів" class="info-image">
-            </section>
-
-            <!-- Секція 6 -->
-            <section class="info-section window fade-in">
-                <h2 class="heading-secondary">Краєвиди та атмосфера</h2>
-                <p class="paragraph">
-                    Ліси, ріки, гори та мальовничі пейзажі створюють неповторну атмосферу гри.
-                    Мінлива погода, освітлення та звуковий супровід впливають на настрій гравця і поведінку NPC.
-                    Кожен куточок світу продуманий для максимальної реалізації відчуття занурення, відпочинку та дослідження.
-                    Природа у KCD II — це не просто фон, а активний елемент, що формує ігровий досвід та взаємодію.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCDII_GC_Panorama_bb93742381.png" alt="Краєвиди та атмосфера" class="info-image">
-            </section>
-
-            <!-- Секція 7 -->
-            <section class="info-section window fade-in">
-                <h2 class="heading-secondary">Місця для відпочинку та досліджень</h2>
-                <p class="paragraph">
-                    Річки, озера та мальовничі ландшафти пропонують можливості для відпочинку, полювання та детального дослідження.
-                    Тут можна знайти приховані секрети, ресурси та насолодитися красою середньовічного світу.
-                    Взаємодія з навколишнім середовищем додає глибини і реалістичності світу.
-                </p>
-                <img src="https://api.press-new.warhorsestudios.cz//uploads/KCDII_GC_River_Rest_3b6011c385.png" alt="Місця для відпочинку" class="info-image">
-            </section>
-
-            <!-- Відео секція -->
-            <section class="video-section window fade-in">
-                <h2 class="heading-secondary">Трейлер</h2>
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/wMZFM6JC47Q"
-                            title="KCD II Official Trailer"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                            class="video-iframe">
-                    </iframe>
+                <div class="text-content">
+                    <p class="paragraph">
+                        <span class="latin-text">Kingdom Come: Deliverance II</span> занурює гравця у великі баталії та ключові сюжетні сцени,
+                        де історія розгортається через численні конфлікти, війни та політичні інтриги.
+                        Гравець стає учасником масштабних битв, де кожне рішення впливає на результат і подальший розвиток світу.
+                        Масштабні події охоплюють як військові кампанії, так і дипломатичні процеси, що формують історичний контекст гри.
+                    </p>
                 </div>
             </section>
 
-            <!-- Кнопка повернення -->
-            <div class="button-container fade-in">
-                <a href="index.html" class="button">Повернутися на Основну</a>
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCD_2_Announce_05_Battlestart_6cffa7c9a7.jpg"
+                         alt="Масштабні події"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Масштабні баталії</h3>
+                    <p class="image-description">Участь у великих битвах з сотнями солдатів, де кожне рішення впливає на результат конфлікту</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Другий ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCD_2_Announce_vista_0f01f2bc29.jpg"
+                         alt="Середньовічний світ"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Середньовічні міста</h3>
+                    <p class="image-description">Детально відтворені історичні міста з живою атмосферою та автентичною архітектурою</p>
+                </div>
+            </section>
+
+            <section class="window text-window" id="world">
+                <h2 class="heading-secondary">Середньовічний світ та історія</h2>
+                <div class="text-content">
+                    <p class="paragraph">
+                        Гравець поринає у глибоку історичну атмосферу Богемії <span class="number">XV</span> століття.
+                        Архітектура замків та будівель, ремісничі майстерні, ринки та соціальна структура міста відтворені з високою точністю.
+                        Кожна локація та дія <span class="latin-text">NPC</span> створює відчуття живого середньовічного світу, а сюжетні рішення тісно переплітаються з історичними подіями.
+                        Цей розділ дозволяє глибше зрозуміти культуру, побут та політичні реалії того часу.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Третій ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window text-window" id="combat">
+                <h2 class="heading-secondary">Бої</h2>
+                <div class="text-content">
+                    <p class="paragraph">
+                        Динамічні бої та дуелі формують серце геймплею. Враховується вага зброї, витривалість персонажа, захисне спорядження та точність ударів.
+                        Гравець повинен стратегічно обирати тактику бою та тренувати свої навички, щоб успішно протистояти ворогам.
+                        У грі представлені як масштабні баталії, так і індивідуальні дуелі, що додає різноманіття бойовому досвіду.
+                    </p>
+                </div>
+            </section>
+
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCD_2_Announce_Fight_Scene_1bec2eea1e.jpg"
+                         alt="Бої"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Реалістичні дуелі</h3>
+                    <p class="image-description">Система боїв враховує вагу зброї, витривалість та техніку ведення бою</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Четвертий ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCD_II_Saints_and_Sinners_Screenshot_6_f146366217.png"
+                         alt="Кримінальні інтриги та правосуддя"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Судові процеси</h3>
+                    <p class="image-description">Участь у судових процесах та розслідуваннях злочинів середньовічного світу</p>
+                </div>
+            </section>
+
+            <section class="window text-window" id="intrigue">
+                <h2 class="heading-secondary">Кримінальні інтриги та правосуддя</h2>
+                <div class="text-content">
+                    <p class="paragraph">
+                        У грі гравець зіштовхується зі злочинами, корупцією та судовими процесами.
+                        Від рішень гравця залежить, як будуть вирішені конфлікти та покарання.
+                        Цей розділ включає шпигунські інтриги, таємні змови і можливість розплутувати складні кримінальні справи.
+                        Гравець може впливати на закон і порядок у місті, що робить сюжет більш інтерактивним та насиченим.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- П'ятий ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window text-window" id="justice">
+                <h2 class="heading-secondary">Правосуддя та наслідки злочинів</h2>
+                <div class="text-content">
+                    <p class="paragraph">
+                        Кожне рішення гравця щодо злочинів та вбивств має прямий вплив на персонажів і розвиток світу.
+                        Справедливість може бути відновлена або порушена залежно від дій гравця.
+                        Помилки у судових процесах чи неправомірні дії можуть призвести до непередбачуваних наслідків, що підкреслює глибину і складність ігрового світу.
+                        Взаємодія з <span class="latin-text">NPC</span> та суспільними інститутами формує унікальний досвід, де моральні вибори є ключовими.
+                    </p>
+                </div>
+            </section>
+
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCD_II_Saints_and_Sinners_Screenshot_2_ec9763fdfc.png"
+                         alt="Правосуддя та наслідки злочинів"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Моральні вибори</h3>
+                    <p class="image-description">Кожне рішення впливає на розвиток сюжету та ставлення інших персонажів</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Шостий ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCDII_GC_Panorama_bb93742381.png"
+                         alt="Краєвиди та атмосфера"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Мальовничі краєвиди</h3>
+                    <p class="image-description">Відкритий світ з різноманітними ландшафтами та динамічною погодою</p>
+                </div>
+            </section>
+
+            <section class="window text-window" id="landscapes">
+                <h2 class="heading-secondary">Краєвиди та атмосфера</h2>
+                <div class="text-content">
+                    <p class="paragraph">
+                        Ліси, ріки, гори та мальовничі пейзажі створюють неповторну атмосферу гри.
+                        Мінлива погода, освітлення та звуковий супровід впливають на настрій гравця і поведінку <span class="latin-text">NPC</span>.
+                        Кожен куточок світу продуманий для максимальної реалізації відчуття занурення, відпочинку та дослідження.
+                        Природа у <span class="latin-text">KCD II</span> — це не просто фон, а активний елемент, що формує ігровий досвід та взаємодію.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Сьомий ряд: Дві секції -->
+        <div class="content-row fade-in">
+            <section class="window text-window" id="exploration">
+                <h2 class="heading-secondary">Місця для відпочинку та досліджень</h2>
+                <div class="text-content">
+                    <p class="paragraph">
+                        Річки, озера та мальовничі ландшафти пропонують можливості для відпочинку, полювання та детального дослідження.
+                        Тут можна знайти приховані секрети, ресурси та насолодитися красою середньовічного світу.
+                        Взаємодія з навколишнім середовищем додає глибини і реалістичності світу.
+                    </p>
+                </div>
+            </section>
+
+            <section class="window image-info-window">
+                <div class="image-container">
+                    <img src="https://press.warhorsestudios.cz/uploads/KCDII_GC_River_Rest_3b6011c385.png"
+                         alt="Місця для відпочинку"
+                         class="info-image">
+                </div>
+                <div class="image-info-content">
+                    <h3 class="image-title">Відпочинок на природі</h3>
+                    <p class="image-description">Тихі куточки для відпочинку, полювання та дослідження природи</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Відео секція -->
+        <section class="window video-window fade-in" id="trailer">
+            <h2 class="heading-secondary">Офіційний трейлер</h2>
+            <div class="video-container">
+                <iframe
+                        class="video-iframe"
+                        src="https://www.youtube.com/embed/wMZFM6JC47Q"
+                        title="Kingdom Come: Deliverance II Official Trailer"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
             </div>
+            <div class="video-info">
+                <h3 class="video-title">Офіційний геймплейний трейлер</h3>
+                <p class="video-description">Перший погляд на геймплей, сюжет та нові можливості Kingdom Come: Deliverance II</p>
+            </div>
+        </section>
+
+        <!-- Кнопка повернення -->
+        <div class="button-container fade-in">
+            <a href="index.html" class="button button--primary">
+                <span class="button-text">Повернутися на Основну</span>
+            </a>
         </div>
     </div>
 </main>
 
-<!-- Підвал -->
-<footer class="footer fade-in">
+<!-- Підвал сайту -->
+<footer class="footer">
     <div class="footer-content">
-        <p class="footer-text">&copy; 2024 Kingdom Come: Deliverance II. Всі права захищені.</p>
-        <p class="footer-text">Warhorse Studios</p>
+        <p class="footer-text">&copy; <span class="number">2024</span> <span class="latin-text">Kingdom Come: Deliverance II</span>. Всі права захищені.</p>
+        <p class="footer-text">Розроблено <span class="latin-text">Warhorse Studios</span></p>
     </div>
 </footer>
+
+<script src="main.js"></script>
 </body>
 </html>
